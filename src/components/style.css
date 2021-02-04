@@ -1,0 +1,53 @@
+.app{
+    max-width: 90%;
+    margin: auto;
+}.header{
+    background-color: orange;
+    display: flex;
+}
+.navlink{
+        margin: 7px;
+}
+.footer{
+    display: flex;  
+    border-top: 2px solid orange;
+    padding: 10px;
+    font-size: 12px;
+    color: black;
+    margin: auto;
+
+}
+.newsList{
+    display: flex;
+    font-size: 16px;
+    color: #828282;
+    padding-bottom: 5px;
+}
+.newsList .count{
+    margin-right: 8px;
+}
+.newsList .newsTitle{
+    display: flex;
+}
+.newsList .newsTitle .title{
+    color: #000000;
+}
+.newsList .url, .newsList .description {
+    font-size: 12px;
+}
+.guidelines{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    margin: auto;
+}
+.heading{
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.subheading{
+    text-align: left;
+    font-size: 12px;
+}
